@@ -4,10 +4,10 @@
   
   btn.addEventListener('click', () => {
     const n = Math.random();
-    if (n > 0.6) {
-      btn.textContent = '好きだってさ！';
+    if (n >= 0.5) {
+      btn.textContent = 'バンちゃん';
     } else {
-      btn.textContent = '一生独り身確定';
+      btn.textContent = 'ツル';
     }
   });
 }
