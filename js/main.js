@@ -22,7 +22,7 @@
   btn.addEventListener('click', () => {
     if(!list.length || list.length === 1){
       btn.textContent = '参加者は2人以上です！';
-      document.getElementById('member').style.color = 'red';
+      document.getElementById('member').style.color = 'skyblue';
     } else {
       const n = Math.floor(Math.random() * list.length);
       btn.textContent = list[n] + 'の奢り！';
